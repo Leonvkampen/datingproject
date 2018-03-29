@@ -88,7 +88,8 @@ p:last-child { margin-bottom: 0px; }
 .section-title { }
 .text-white { color: #fff; }
 .title-white { color: #fff; }
-.title { color: #3c4d6b; }
+.title { color: #3c4d6b !important;
+    opacity: 1 !important; }
 
 /*-----------------------------------
 Space css class
@@ -399,7 +400,7 @@ index-1
 /*------------------------------------
  index-3 (updated: 16 june 2017)
 -------------------------------------*/
-.header-transparent { background-color: rgba(255, 255, 255, .1); padding-top: 19px; padding-bottom: 19px; border-bottom: 1px solid rgba(255, 255, 255, .08); position: fixed; z-index: 9; width: 100%; }
+.header-transparent { background-color: #15549a; padding-top: 19px; padding-bottom: 19px; border-bottom: 1px solid rgba(255, 255, 255, .08); position: fixed; z-index: 9; width: 100%; }
 .header-transparent #navigation>ul>li.has-sub>a { padding-right: 30px; }
 .header-transparent #navigation>ul>li>a { padding: 16px 10px; font-size: 13px; text-decoration: none; color: #fff; font-weight: 600; text-transform: uppercase; }
 .header-transparent #navigation { float: right; margin-top: 0px; position: relative; z-index: 99; }
@@ -408,8 +409,9 @@ index-1
 .lender-box { margin-bottom: 8px; margin-top: 8px; }
 .slider-gradient-img img { position: relative; z-index: -1; width: 100%; }
 .slider-gradient-img { position: relative; background: -moz-linear-gradient(-45deg, rgba(31, 43, 112, 0.9) 0%, rgba(31, 43, 112, 0.9) 47%, rgba(148, 58, 158, 0.9) 100%); background: -webkit-linear-gradient(-45deg, rgba(31, 43, 112, 0.9) 0%, rgba(31, 43, 112, 0.9) 47%, rgba(148, 58, 158, 0.9) 100%); background: linear-gradient(135deg, rgba(25, 46, 167, 0.9) 0%, rgba(24, 40, 134, 0.9) 47%, rgba(148, 58, 158, 0.9) 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e61f2b70', endColorstr='#e6943a9e', GradientType=1); }
-.service-block-v3 { background-color: #fff; padding: 40px 0px 0px 0px; text-align: center; margin-bottom: 30px; }
+.service-block-v3 { position: relative; background-image: url(../images/255x362-placeholder.jpg); padding: 20px 0px 0px 0px; text-align: center; margin-bottom: 60px; height: 300% }
 .service-block-v3 .service-content { padding: 5px 30px; }
+.service-block-v3 .service-title { margin-bottom: 20px; line-height: 24px; }
 .service-block-v3 .service-title { margin-bottom: 20px; line-height: 24px; }
 .service-rate-block { margin-bottom: 30px; }
 .service-rate-block .product-rate { color: #f51f8a; margin-bottom: 6px; font-size: 18px; }
@@ -998,3 +1000,16 @@ Landing Page Template
     .widget-share { background-color: #fff; padding: 14px; position: absolute; top: 0px; right: 0px; }
     .search-nav { display: none; }
 }
+
+.overlay-home {position: absolute;bottom: 0;left: 0;right: 0;height: calc(100%/3);opacity: 0;transition: .5s ease;z-index: 2;}
+.overlay-home::after {content: '';position: absolute;top: 0;bottom: 0;left: 0;right: 0;background-color: black;opacity: 0;z-index: -1;}
+/*.overlay-home-1::after{background-color: red;}
+.overlay-home-2::after{background-color: blue;}
+.overlay-home-3::after{background-color: green;}*/
+
+.overlay-home-2{top:33.33333333%;}
+.overlay-home-1{top:0;}
+
+.service-block-v3:hover .overlay-home::after {opacity: 0.25;}
+.service-block-v3:hover .overlay-home {opacity: 1;}
+.service-block-v3:hover .service-title{opacity: 0;}
