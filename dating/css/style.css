@@ -88,12 +88,17 @@ p:last-child { margin-bottom: 0px; }
 .section-title { }
 .text-white { color: #fff; }
 .title-white { color: #fff; }
-.title { color: #3c4d6b !important;
-    opacity: 1 !important; }
+.title { color: #ed1e79;
+    opacity: 1;
+    }
+
+
 
 /*-----------------------------------
 Space css class
 -----------------------------------*/
+
+.ridge {border-bottom: 1px ridge grey}
 
 /*----------------
 margin space
@@ -400,16 +405,16 @@ index-1
 /*------------------------------------
  index-3 (updated: 16 june 2017)
 -------------------------------------*/
-.header-transparent { background-color: #15549a; padding-top: 19px; padding-bottom: 19px; border-bottom: 1px solid rgba(255, 255, 255, .08); position: fixed; z-index: 9; width: 100%; }
+.header-transparent { background-color: #15549a; padding-top: 19px;  border-bottom: 1px solid rgba(255, 255, 255, .08); position: fixed; z-index: 9; width: 100%; }
 .header-transparent #navigation>ul>li.has-sub>a { padding-right: 30px; }
-.header-transparent #navigation>ul>li>a { padding: 16px 10px; font-size: 13px; text-decoration: none; color: #fff; font-weight: 600; text-transform: uppercase; }
+.header-transparent #navigation>ul>li>a { padding: 16px 10px; font-size: 13px; text-decoration: none; color: #ed1e79; font-weight: 600; text-transform: uppercase; }
 .header-transparent #navigation { float: right; margin-top: 0px; position: relative; z-index: 99; }
-.top-nav-collapse { background-color: #15549a; }
+.top-nav-collapse { background-color: #F8F8FF; }
 .lender-logo-section { margin-top: -20px; }
 .lender-box { margin-bottom: 8px; margin-top: 8px; }
 .slider-gradient-img img { position: relative; z-index: -1; width: 100%; }
 .slider-gradient-img { position: relative; background: -moz-linear-gradient(-45deg, rgba(31, 43, 112, 0.9) 0%, rgba(31, 43, 112, 0.9) 47%, rgba(148, 58, 158, 0.9) 100%); background: -webkit-linear-gradient(-45deg, rgba(31, 43, 112, 0.9) 0%, rgba(31, 43, 112, 0.9) 47%, rgba(148, 58, 158, 0.9) 100%); background: linear-gradient(135deg, rgba(25, 46, 167, 0.9) 0%, rgba(24, 40, 134, 0.9) 47%, rgba(148, 58, 158, 0.9) 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e61f2b70', endColorstr='#e6943a9e', GradientType=1); }
-.service-block-v3 { position: relative; background-image: url(../images/255x362-placeholder.jpg); padding: 20px 0px 0px 0px; text-align: center; margin-bottom: 60px; height: 300% }
+.service-block-v3 { position: relative;  padding: 20px 0px 0px 0px; text-align: center; margin-bottom: 60px; height: 300%; overflow: hidden; }
 .service-block-v3 .service-content { padding: 5px 30px; }
 .service-block-v3 .service-title { margin-bottom: 20px; line-height: 24px; }
 .service-block-v3 .service-title { margin-bottom: 20px; line-height: 24px; }
@@ -527,7 +532,7 @@ footer
 /*--------------------------------
 Page header 
 ---------------------------------*/
-.page-header { margin: 0; padding: 175px 0px 80px; min-height: 410px; border: none; background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(0, 0, 0, 0.2) url(../images/page-header.jpg) no-repeat center; background-size: cover; }
+.page-header { margin: 0; padding: 150px 0px 60px; min-height: 100px; border: none; background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(0, 0, 0, 0.2) url(../images/page_header.jpg) no-repeat center; background-size: cover; }
 .page-title { margin-bottom: 0px; font-size: 36px; }
 .rate-block { text-align: right; }
 .rate-number { margin-bottom: 0px; line-height: 1; color: #f51f8a; }
@@ -1013,3 +1018,5 @@ Landing Page Template
 .service-block-v3:hover .overlay-home::after {opacity: 0.25;}
 .service-block-v3:hover .overlay-home {opacity: 1;}
 .service-block-v3:hover .service-title{opacity: 0;}
+.service-block-backround {transition: .5s ease; position: absolute;left: 0;right: 0;bottom: 0;top: 0;z-index: -1;}
+.service-block-v3:hover .service-block-backround{transform: scale(1.1);}
