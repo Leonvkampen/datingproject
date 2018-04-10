@@ -405,7 +405,7 @@ index-1
 /*------------------------------------
  index-3 (updated: 16 june 2017)
 -------------------------------------*/
-.header-transparent { background-color: #15549a; padding-top: 19px;  border-bottom: 1px solid rgba(255, 255, 255, .08); position: fixed; z-index: 9; width: 100%; }
+.header-transparent { background-color: #15549a; padding-top: 19px; border-bottom: 1px solid rgba(255, 255, 255, .08); position: fixed; z-index: 9; width: 100%; }
 .header-transparent #navigation>ul>li.has-sub>a { padding-right: 30px; }
 .header-transparent #navigation>ul>li>a { padding: 16px 10px; font-size: 13px; text-decoration: none; color: #ed1e79; font-weight: 600; text-transform: uppercase; }
 .header-transparent #navigation { float: right; margin-top: 0px; position: relative; z-index: 99; }
@@ -532,7 +532,7 @@ footer
 /*--------------------------------
 Page header 
 ---------------------------------*/
-.page-header { margin: 0; padding: 150px 0px 60px; min-height: 100px; border: none; background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(0, 0, 0, 0.2) url(../images/page_header.jpg) no-repeat center; background-size: cover; }
+.page-header { margin: 0; padding: 90px 0px 60px; min-height: 100px; border: none; background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(0, 0, 0, 0.2) url(../images/page_header.jpg) no-repeat center; background-size: cover; }
 .page-title { margin-bottom: 0px; font-size: 36px; }
 .rate-block { text-align: right; }
 .rate-number { margin-bottom: 0px; line-height: 1; color: #f51f8a; }
@@ -547,7 +547,7 @@ Page header
 .page-breadcrumb { }
 .page-breadcrumb .breadcrumb { background-color: transparent; padding: 0px; font-size: 12px; text-transform: uppercase; color: #15549a; font-weight: 700; }
 .page-breadcrumb .breadcrumb>li { }
-.page-breadcrumb .breadcrumb>.active { color: #fff; font-weight: 700; }
+.page-breadcrumb .breadcrumb>.active { color: #ed1e79; font-weight: 700; }
 .page-breadcrumb .breadcrumb>li a { color: #15549a; font-weight: 700; }
 .page-breadcrumb .breadcrumb>li a:hover { color: #f51f8a; }
 .page-breadcrumb .breadcrumb>li+li:before { padding: 0 5px; color: #15549a; content: "/\00a0"; }
@@ -810,12 +810,12 @@ Card Listing Page
 Lender Listing Page
 ---------------------------------*/
 .lender-listing { border: 1px solid #dee7f2; margin-bottom: 30px; }
-.lender-head { padding: 15px; background: #eff3f8; border-bottom: 1px solid #dee7f2; }
+.lender-head { padding: 15px; background: #eff3f8; border-bottom: 1px solid #dee7f2; height: 73px; }
 .lender-logo { display: inline-block; width: 170px; }
 .lender-reviews { color: #ffb607; display: inline-block; float: right; padding-top: 15px; }
 .lender-rate-box { padding: 15px; border-bottom: 1px solid #dee7f2; }
-.lender-ads-rate { border-right: 1px solid #dee7f2; }
-.lender-ads-rate, .lender-compare-rate { display: inline-block; text-align: center; width: 143px; }
+.lender-ads-rate { border-right: 1px solid #dee7f2; float: left; }
+.lender-ads-rate, .lender-compare-rate { display: inline-block; text-align: center; width: 50%; }
 .lender-rate-value { font-size: 20px; font-weight: 600; margin-top: 6px; }
 .compare-rate { }
 .lender-feature-list { padding: 20px; border-bottom: 1px solid #dee7f2; }
@@ -971,7 +971,7 @@ Landing Page Template
     .header-transparent #navigation.small-screen ul ul li a { color: #fff; background: none; }
     .video-play { left: 39%; top: 45px; }
     .st-tabs .nav-link { padding: 16px 11px; }
-    .lender-ads-rate, .lender-compare-rate { width: 123px; }
+    .lender-ads-rate, .lender-compare-rate { width: 50%; }
     .sub-nav>.nav li a { padding: 8px 0px; font-size: 11px; }
     .portfolioFilter a { text-transform: uppercase; background-color: #eff3f8; padding: 9px 23px; }
 }
@@ -1020,3 +1020,4 @@ Landing Page Template
 .service-block-v3:hover .service-title{opacity: 0;}
 .service-block-backround {transition: .5s ease; position: absolute;left: 0;right: 0;bottom: 0;top: 0;z-index: -1;}
 .service-block-v3:hover .service-block-backround{transform: scale(1.1);}
+

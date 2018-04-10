@@ -8,7 +8,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="Borrow - is the loan company website template.">
     <meta name="keywords" content="loan, bad credit, EMI Calculator, credit cars, home loan, car loan, education loan">
-    <title>Borrow - A Loan Company Website Templates</title>
+    <title>Flirtgids - Vergelijkings website voor dating websites</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -57,22 +57,22 @@
                     <div class="service-block-v3 service-block-1">
                         <div class="service-block-backround" style="background-image: url(images/hetero.jpg);"></div>
                         <div class="category">
-                            <h2 class="service-title"><a href="#" class="title"><strong>Hetero</strong></a></h2>
+                            <h2 class="service-title"><a href="hetero.php" class="title"><strong>Hetero</strong></a></h2>
                         </div>
-                        <a style="display:block" href="about.php">
+                        <a style="display:block" href="hetero.php">
                             <div class="overlay-home overlay-home-1">
                                 <h3 class="title"
-                                    style="text-align: center; vertical-align: middle; line-height: 90px;">top1
+                                    style="text-align: center; vertical-align: middle; line-height: 90px;"><img class="img-fluid mt-2" style="width:75%" src="images/lexa-logo.png">
                                 </h3>
                             </div>
                             <div class="overlay-home overlay-home-2">
                                 <h3 class="title"
-                                    style="text-align: center; vertical-align: middle; line-height: 90px;">top
+                                    style="text-align: center; vertical-align: middle; line-height: 90px;"><img class="img-fluid mt-2" style="width:75%" src="images/relatie-planet.png">
                                 </h3>
                             </div>
                             <div class="overlay-home overlay-home-3">
                                 <h3 class="title"
-                                    style="text-align: center; vertical-align: middle; line-height: 90px;">top
+                                    style="text-align: center; vertical-align: middle; line-height: 90px;"><img class="img-fluid mt-2" style="width:75%" src="images/parship.png">
                                 </h3>
                             </div>
                         </a>
@@ -84,10 +84,10 @@
                         <div class="service-block-backround"
                              style="background-image: url(images/vreemdgaan.jpg);"></div>
                         <div class="category">
-                            <h2 class="service-title"><a href="#" class="title"><strong></bolt>Vreemdgaan</strong></a>
+                            <h2 class="service-title"><a href="vreemdgaan.php" class="title"><strong></bolt>Vreemdgaan</strong></a>
                             </h2>
                         </div>
-                        <a style="display:block" href="about.php">
+                        <a style="display:block" href="vreemdgaan.php">
                             <div class="overlay-home overlay-home-1">
                                 <h3 class="title"
                                     style="text-align: center; vertical-align: middle; line-height: 90px;">top</h3>
